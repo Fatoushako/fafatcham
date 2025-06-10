@@ -1,0 +1,172 @@
+body {
+    background-image: url(/TFC/FHB/images/fond/motif.jpeg);
+}
+
+/* les espces supprimer */
+*{
+margin: 0%;
+}
+
+/* le premier logo */
+.logo1 {
+    width: 5%;
+    object-fit: cover;
+    margin-left: 43%;
+    margin-bottom: 2%;
+}
+
+/* le nom du salon < fatou hair beauty> */
+.nom {
+    margin-left: 47%;
+    margin-top: -73px;
+}
+
+/* LE LOGO ET L'ECRIS <FATOU HAIR BEAUTY> */
+.tout {
+    margin-top: -10px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    background-color: rgb(234, 232, 232);
+    width: 100%;
+}
+
+/* LIENS */
+
+/* l'ensemble des liens */
+.liens {
+    background-color: black;
+    margin-top: -12px;
+    height: 65px;
+    padding-top: 25px;
+
+}
+
+/* le <a> donc les liens */
+a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10%;
+}
+
+/* le liens aprendre rendez-vous*/
+.rdv {
+    border: solid 1px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+}
+
+/* Le bacground rose     */
+.tout2 {
+    background-color: magenta;
+    height: 25%;
+    margin-bottom: 15%;
+}
+
+/* la photo de la fille avec l'afro*/
+.img4 {
+    width: 690px;
+    height: 220px;
+    margin-left: 20%;
+    margin-top: 3%;
+
+}
+
+/* Le paragraphe */
+.p1 {
+    margin-left: -250px;
+    margin-top: -1px;
+}
+
+
+/* Les ecrits pret de l'images <NOTRE ETHIQUE>*/
+.tout3 {
+    margin-left: 37%;
+    margin-top: -70px;
+    margin-bottom: 5%;
+
+}
+
+/* Tout ce qui est en mauves */
+span {
+    color: magenta;
+}
+
+
+/* A PROPOS <QUI SOMMES NOUS ETC> */
+
+
+/* TOUT LES PARAGRAPHES */
+p {
+    margin-left: 4%;
+
+}
+
+/* l'ensemble des <app, who are us etc> */
+.tout5 {
+    margin-left: 2%;
+    margin-top: 2%;
+   
+}
+
+
+
+
+/* NOS VALEURS */
+
+
+/* le titre nos valeurs */
+.nosval {
+    margin-top: 6%;
+    background-color: magenta;
+    width: 35%;
+    height: 5%;
+    padding-top: 5px;
+    color: white;
+    padding-left: 19%;
+    border-top-right-radius: 50px;
+
+}
+
+
+/* le paragraphe de <nos valeur> */
+.pfinale {
+    margin-left: 1%;
+}
+
+
+/* le tout donc les fleches , le paragraphe et la photo pour nos valeurs */
+.tout1 {
+    display: flex;
+    margin-bottom: -20px;
+
+}
+
+/* l'image a la fin */
+.img2 {
+    width: 45%;
+    border-radius: 150px;
+    margin-top: -50px;
+    margin-left: 90px;
+
+
+}
+
+/* le fafa donc le deux ff et les etoiles */
+.fafa {
+    margin-left: 23%;
+    color: magenta;
+
+}
+
+/* le footer donc le pied */
+h5 {
+    background-color: magenta;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    height: 4%;
+    padding-top: 1%;
+}

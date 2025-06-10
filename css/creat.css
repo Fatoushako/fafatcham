@@ -1,0 +1,183 @@
+* {
+    margin: 0%;
+}
+
+body{
+    background-image: url();
+}
+
+
+/* le premier logo et le titre <fatou hair beauty> */
+.tout1 {
+    display: flex;
+    background-color: rgb(240, 239, 239);
+
+}
+
+/*  logo1 <FHB> */
+.logo1 {
+    width: 5%;
+    object-fit: cover;
+    margin-left: 43%;
+}
+
+/* le titre <fatou haire> */
+.fhb {
+    margin-left: -10px;
+    margin-top: 12px;
+    color: black;
+}
+
+
+/* LES LIENS */
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 11%;
+
+}
+
+/* TOUJOUR LE LIENS MAIS AVEC SA CLASSE */
+.liens {
+    background-color: black;
+    height: 9%;
+    padding-top: 23px;
+    padding-right: 1%;
+}
+
+/* LES LIENS <PRENDRE RENDREZ-VOUS> */
+.rdv {
+    border: solid 1px white;
+    background-color: white;
+    color: black;
+    padding: 7px;
+    border-radius: 15px;
+
+}
+
+/* GALERIE */
+
+/* le tout donc le cadre de galerie */
+.tout3 {
+    border: solid 1px gray;
+    height: 98%;
+    width: 25%;
+    padding: 3%;
+    margin-top: 7%;
+    margin-left: 10%;
+    padding-left: 5%;
+    background-color: white;
+
+}
+
+/* le titre galerie */
+.gal {
+    margin-bottom: 2%;
+    margin-top: -10px;
+}
+
+/* le bouton <APPELER MAINTENANT */
+.btn1 {
+    margin-top: 5%;
+    background-color: rgb(218, 76, 187);
+    color: white;
+    height: 20%;
+    border: none;
+
+}
+
+/* l'image et la galerie <ensemble> */
+.tout2 {
+    display: flex;
+    background-color: rgb(218, 76, 187);
+    height: 25%;
+
+}
+
+/* l'image seul a  */
+.img2 {
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 320px;
+    object-fit: cover;
+
+}
+
+/* le titre < notre galerie> */
+.our {
+    margin-top: 25%;
+    text-align: center;
+
+}
+
+
+/* tout les mauves <titre> */
+span {
+    color: rgb(208, 57, 198);
+}
+
+
+/* le titre <nos meilleur creations> */
+.nmc {
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+
+
+
+/* LA PARTIE DES VIDEOS */
+
+
+/* l'ensemble des videos <4> premiere */
+video {
+    height: 50%;
+    width: 250px;
+    border: solid 1px rgb(208, 57, 198);
+    margin-top: -20px;
+    object-fit: cover;
+
+}
+
+/* les videos d'en haut  */
+.vid1 {
+    margin-left: 41%;
+    border-radius: 50%;
+
+}
+
+
+/* les deux videos de droite et gauche */
+.vid2 {
+    margin-left: 20%;
+    border-radius: 50%;
+    margin-top: -180px;
+}
+
+/* la video qUatre <en bas> */
+.vid3 {
+    margin-left: 41%;
+    border-radius: 50%;
+    margin-top: -120px;
+}
+
+/* Titre <creations sans meches */
+.creacrea {
+    margin-top: 4%;
+    margin-left: 2%;
+margin-bottom: -30px;
+}
+
+/* 1, 2 , 3 COLONNES DES VIDEOS  AVEC ET SANS MECHES */
+.tout5 {
+    margin-top: 20%;
+    margin-left: 3%;
+}
+
+/* video 1 , 2 et 3 <premiere colonne> <deuxieme et troisieme colonnes> AVEC ET SANS MECHE*/
+.vid4 {
+    width: 15%;
+    margin-top: -200px;
+    margin-right: 1%
+}

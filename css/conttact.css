@@ -1,0 +1,119 @@
+* {
+    margin: 0%;
+}
+
+body {
+    background-color: magenta;
+
+}
+
+/* le premier logo et le titre <fatou hair beauty> */
+.tout1 {
+    display: flex;
+    background-color: rgb(240, 239, 239);
+
+}
+
+/* le premier logo <FHB> */
+.logo1 {
+    width: 5%;
+    object-fit: cover;
+    margin-left: 43%;
+}
+
+/* le titre <fatou haire> */
+.fhb {
+    margin-left: -10px;
+    margin-top: 12px;
+    color: black;
+}
+
+
+/* LES LIENS */
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 6%;
+
+}
+
+/* TOUJOUR LE LIENS MAIS AVEC SA CLASS */
+.liens {
+    background-color: magenta;
+    height: 79%;
+    padding-top: 23px;
+    padding-right: 20px;
+}
+
+/* LES LIENS <PRENDRE RENDREZ-VOUS> */
+.rdv {
+    border: solid 1px white;
+    background-color: white;
+    color: black;
+    padding: 7px;
+    border-radius: 15px;
+
+}
+
+/* LE FORMULAIRE */
+
+/* le tout */
+.tout2 {
+    border: solid 1px;
+    border: none;
+    border-radius: 15px;
+
+    width: 77%;
+    height: 60%;
+
+    padding: 5%;
+    padding-top: 35px;
+
+    margin-left: 7%;
+    margin-top: -420px;
+
+    background-color: white;
+
+}
+
+/* le span */
+span {
+    color: magenta;
+}
+
+/* les deux inputs <1 et 2> */
+.input1 {
+    width: 13%;
+    height: 8%;
+    margin-top: 2%;
+    margin-right: 1%;
+
+    border-radius: 14px;
+  
+
+}
+
+/* le trois et quatre */
+.input2 {
+
+    width: 28%;
+    height: 8%;
+    margin-right: 1%;
+
+    border-radius: 14px;
+  
+
+}
+
+/* les inputs sexe */
+.sexe {
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+/* les inputs avec ou sans */
+.trs {
+    margin-top: 1%;
+    margin-right: 1%;
+
+}

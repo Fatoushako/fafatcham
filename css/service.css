@@ -1,0 +1,190 @@
+body {
+    background-image: url(/TFC/FHB/images/fond/motif.jpeg);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* <!-- le premier logo, mon nom  --> */
+.tout {
+    display: flex;
+    background-color: rgb(234, 230, 230);
+    padding-bottom: 2%;
+}
+
+/* le premier logo */
+.logo1 {
+    width: 5%;
+    margin-left: 43%;
+}
+
+/* mon nom */
+.nom {
+    margin-top: 11px;
+    margin-left: -10px;
+}
+
+/* les liens */
+.liens {
+    background-color: magenta;
+    width: 100%;
+    height: 9%;
+    margin-top: -26px;
+    padding-top: 25px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 6%;
+}
+
+
+/* le liens <PRENDRE RENDEZ-VOUS> */
+.rdv {
+border: solid 1px ;
+color: black;
+padding: 8px;
+background-color: white;
+border-radius: 20px;
+border: none;
+
+}
+
+
+/* PREMIERE IMAGE ET TEXTE */
+
+/* la premiere img le h1 et le p apres les liens */
+.tout2 {
+    display: flex;
+    margin-left: 7%;
+}
+
+/* le premier paragraphe dans <fatou hair beauty> */
+.para1 {
+    margin-left: 2%;
+    padding-top: 3%;
+    text-transform: lowercase;
+
+}
+
+/* la premiere image a cote de fatou hair */
+.img1 {
+    margin-left: 5%;
+    width: 50%;
+    margin-top: 3%;
+    object-fit: cover;
+}
+
+/* le h1 donc fatou har et le p */
+.h1_p {
+    margin-top: 10%;
+}
+
+/* le boutton apres fa hair en dessous du paragraphe */
+.btn1 {
+    background-color: magenta;
+    color: white;
+    border: none;
+    height: 7%;
+    width: 15%;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+/* SERVICE */
+span{
+    color: magenta;
+}
+
+
+/* la partie  <nos services>  l'alignement */
+.aligne_service {
+    margin-left: 42%;
+    margin-top: 6%;
+   
+}
+
+/* paragraphe de service */
+.para2 {
+    text-align: center;
+   margin-bottom: 5%;
+}
+
+
+/* LES SERVICES QUE PROPOSE MON SITE */
+
+/* L'ensemble du mot <femmes et le p>  */
+.femmes {
+    display: flex;
+}
+
+/* le paragraphe <sans meches> */
+.pf {
+    margin-top: 14px;
+    color: magenta;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+/* LES IMAGES QUE PROPOSE MON SERVICE <FEMMES><TRESSES> */
+/* toutes les images */
+img {
+    width: 90%;
+    height: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 9px;
+    object-fit: cover;
+}
+
+/* le tout donc la colon avec l'img, h3 et p */
+.col1 {
+    width: 19%;
+    height: 40%;
+    padding: 10px;
+    border: 1px solid magenta;
+    border-radius: 10px;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+
+/* mettre cinq photos sur une meme ligne */
+
+/* .groupe_ TOUT */
+.groupe1,
+.groupe2,
+.groupe3,
+.groupe4,
+.groupe5,
+.groupe6,
+.groupe7 {
+    display: flex;
+    margin-left: 1%;
+}
+
+
+/* pour rectifier la taille des images car elles sont disproportionnelles */
+
+/* toutes les images du groupe <1>_<2>_<3> qui comporte 5 img */
+.image1 {
+    height: 250px;
+}
+
+
+/* les boutons des prix  */
+.prix {
+    color: white;
+    background-color: magenta;
+    border: solid 1px;
+    width: 25%;
+    margin-left: 27%;
+    padding-left: 15%;
+    border-radius: 15px;
+    margin-bottom: 0%;
+}

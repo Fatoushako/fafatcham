@@ -1,0 +1,321 @@
+* {
+    margin: 0%;
+}
+
+body {
+    background-image: url(../images/fond/motif.jpeg);
+}
+
+
+/* le premier logo et le titre <fatou hair beauty> */
+.tout1 {
+    display: flex;
+    background-color: rgb(240, 239, 239);
+
+}
+
+/* le premier logo <FHB> */
+.logo1 {
+    width: 5%;
+    object-fit: cover;
+    margin-left: 43%;
+}
+
+/* le titre <fatou haire> */
+.fhb {
+    margin-left: -10px;
+    margin-top: 12px;
+    color: black;
+}
+
+/* LES LIENS */
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 11%;
+
+}
+
+/* TOUJOUR LE LIENS MAIS AVEC SA CLASS */
+.liens {
+    background-color: magenta;
+    height: 9%;
+    padding-top: 23px;
+    padding-right: 1%;
+}
+
+/* LES LIENS <PRENDRE RENDREZ-VOUS> */
+.rdv {
+    border: solid 1px white;
+    background-color: white;
+    color: black;
+    padding: 7px;
+    border-radius: 15px;
+
+}
+
+
+
+/* L'IMAGE1 et les ecrits donc le < tout>*/
+.tout2 {
+    display: flex;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+/* L'IMAGE <1> SEUL */
+.img1 {
+    width: 57%;
+    margin-left: -60px;
+
+}
+
+/* LES ECRITS A COTE DE L'IMAGE EN DESSIN */
+.tout3 {
+    margin-top: 12%;
+}
+
+/* LE BOUTONS EN DESSOUS DES ECRIS QUI SE TROUVE PRET DU DESSIN EN IMG */
+.btn1 {
+    background-color: magenta;
+    color: white;
+    height: 10%;
+    border: none;
+    border-radius: 15px;
+    margin-top: 3%;
+
+}
+
+
+/* LA PARTIE SERVICES */
+
+/* TOUTES LES IMAGES DONC LES <4> */
+.img2 {
+    width: 100%;
+    border-radius: 7px;
+    height: 50%;
+}
+
+
+/* SERVICE */
+
+/* le titre service */
+.svr {
+    margin-left: 9px;
+}
+
+
+/* LA PARTIE SERVICE */
+.tout4 {
+    padding-top: 8%;
+
+}
+
+/* L'ENSEMBLE DES QUATRES IMAGES */
+.tout5 {
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 3%;
+
+
+}
+
+
+/* l'ensemble des ecrits ainsi que l'image  */
+.tout6 {
+    width: 23%;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 2%;
+    background-color: rgb(248, 248, 248);
+    border: solid 1px magenta;
+
+}
+
+/* Les ecrits dans <services> LE P */
+.p4 {
+    margin-top: 4%;
+
+}
+
+
+/* le prix donc <5 $> */
+.prix {
+    border: solid 1px;
+    width: 22%;
+    height: 5%;
+    padding-left: 10%;
+    padding-top: 4px;
+    background-color: magenta;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: -90px;
+    margin-top: 4%;
+
+}
+
+
+/* A PROPOS */
+
+/* Le titre >A PROPOS> */
+.p3 {
+    margin-bottom: 3%;
+   
+}
+
+/* le paragraphe de au dessus du bouton <en savoir plus> */
+.pp1{
+margin-bottom: 4%;
+
+}
+
+
+/* LES ECRITS QUI PARLE DE MON SALON <MISSION ETC> */
+.tout8 {
+    margin-right: 4%;
+    text-align: justify;
+
+}
+
+/* LE BOUTON < LIRE PLUS> */
+.btn2 {
+    border: solid 1px;
+    color: white;
+    background-color: magenta;
+    padding: 6px;
+   margin-left: -1px;
+
+}
+
+/* L'IMAGE */
+.img3 {
+    width: 40%;
+    margin-top: 1%;
+    height: 450px;
+    border: solid 2px magenta;
+}
+
+/* Le titre <temoignage> */
+.tmg {
+    margin-left: 1%;
+    margin-top: 7%;
+
+}
+
+
+/* LE TOUT DONC LES ECRIS ET LA PHOTO */
+.tout7 {
+    display: flex;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 7%;
+}
+
+
+
+/*   < TEMOIGNAGE> */
+
+/* l'ensemble des trois commentaires enline */
+.tout9 {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 4%;
+}
+
+/* les bordure qui englobe tout */
+.tout10 {
+    border: solid 1px magenta;
+    width: 28%;
+    padding: 1%;
+    padding-left: 20px;
+    margin-left: 1%;
+    border-radius: 4%;
+    background-color: white;
+}
+
+/* l'image et les ecris */
+.tout11 {
+    display: flex;
+
+}
+
+/* l'image */
+.img4 {
+    width: 28px;
+    height: 8%;
+    object-fit: cover;
+    border-radius: 60%;
+    margin-top: 2%;
+}
+
+/* le nom MADAME NICKY */
+.md {
+    margin-left: 2%;
+    margin-top: 5px;
+}
+
+/* le paragraphe de madame <nicky> */
+.p1 {
+    margin-left: 10%;
+    margin-top: -19px;
+}
+
+
+
+/* LA FIN DONC LE FOOTER */
+
+/* le logo et le titre <fatou hair beauty> */
+.fin {
+    display: flex;
+    background-color: magenta;
+    margin-top: 1%;
+    width: 17%;
+    height: 9%;
+}
+
+/* le logo <FHB> */
+.logo2 {
+    width: 35%;
+    object-fit: cover;
+    height: 60%
+}
+
+/* le titre <fatou haire> */
+.fhb1 {
+    color: white;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+
+/* l'ensemble des info en display */
+.foot {
+    display: flex;
+    margin-top: 10%;
+    background-color: rgb(245, 239, 239);
+
+}
+
+/* le informations seul donc < p >*/
+.foot1 {
+    margin-left: 8%;
+    margin-top: 2%;
+    padding-bottom: 1%;
+}
+
+
+/* MICHEE */
+
+.contenaire::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+}
