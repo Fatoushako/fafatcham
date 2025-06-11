@@ -131,6 +131,7 @@ span{
     margin-bottom: 3%;
 }
 
+
 /* LES IMAGES QUE PROPOSE MON SERVICE <FEMMES><TRESSES> */
 /* toutes les images */
 img {
@@ -152,6 +153,7 @@ img {
     margin-right: 1%;
     margin-bottom: 2%;
     margin-left: 1%;
+    background-color: whitesmoke;
 }
 
 
@@ -166,7 +168,7 @@ img {
 .groupe6,
 .groupe7 {
     display: flex;
-    margin-left: 1%;
+   
 }
 
 
@@ -174,7 +176,8 @@ img {
 
 /* toutes les images du groupe <1>_<2>_<3> qui comporte 5 img */
 .image1 {
-    height: 250px;
+    height: 210px;
+    margin-bottom: 3%;
 }
 
 
@@ -183,9 +186,61 @@ img {
     color: white;
     background-color: magenta;
     border: solid 1px;
+
     width: 25%;
+
     margin-left: 27%;
     padding-left: 15%;
     border-radius: 15px;
     margin-bottom: 0%;
+    margin-top: 2%;
 }
+
+
+
+
+/* LE FOOTER DONC A FIN */
+
+
+/* le logo et le titre <fatou hair beauty> */
+.fin {
+    display: flex;
+    background-color: magenta;
+    width: 17%;
+    height: 9%;
+    margin-left: 1%;
+}
+
+/* le logo <FHB> */
+.logo2 {
+    width: 35%;
+    object-fit: cover;
+    height: 60%
+    
+}
+
+/* le titre <fatou haire> */
+.fhb1 {
+    color: white;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+
+/* l'ensemble des info en display */
+.foot {
+    display: flex;
+    margin-top: 5%;
+    background-color:  rgb(234, 230, 230);
+    margin-left: -30px;
+
+}
+
+/* le informations seul donc < p >*/
+.foot1 {
+    margin-left: 8%;
+    margin-top: 2%;
+    padding-bottom: 1%;
+}
+
+
