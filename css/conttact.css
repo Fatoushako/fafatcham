@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(240, 239, 239);
+    background-color: rgb(219, 206, 206);
 }
 
 
@@ -31,16 +31,16 @@ body {
 
 /* LES LIENS */
 a {
-    color: black;
+    color: white;
     text-decoration: none;
     margin-left: 6%;
-  
+
 
 }
 
 /* TOUJOUR LE LIENS MAIS AVEC SA CLASS */
 .liens {
-    background-color: magenta;
+    background-color: black;
     height: 10%;
     padding-top: 20px;
     padding-right: 20px;
@@ -54,7 +54,11 @@ a {
     color: black;
     padding: 7px;
     border-radius: 15px;
+}
 
+/* toujout le bouton rdv mais en plus de style */
+.rdv:hover {
+    background-color: magenta;
 }
 
 
@@ -66,7 +70,7 @@ a {
     display: flex;
     height: 15%;
     margin-left: 3%;
-    margin-top: 38%;
+    margin-top: 35%;
     margin-bottom: 2%;
 }
 
@@ -78,7 +82,7 @@ a {
     width: 50%;
     height: 30%;
     margin-top: 57%;
-    margin-left: 2%;
+    margin-left: 5%;
 }
 
 /* mon nom */
@@ -87,10 +91,10 @@ a {
     font-size: 18px;
 
     margin-top: 75%;
-    margin-left: -9%;
+    margin-left: -11%;
 }
 
-/* les deux donc le logo et mon nom */
+/* les deux donc <le logo et mon nom> */
 .tout2 {
     display: flex;
     border: solid 1px;
@@ -122,8 +126,8 @@ a {
 .fhb2 {
     color: black;
     font-size: 10px;
-    margin-top: -19%;
-    margin-left: 120px;
+    margin-top: -20%;
+    margin-left: 117px;
 }
 
 /* les deux donc le logo et mon nom */
@@ -141,31 +145,76 @@ a {
 
 /* la photo sur la part 2 */
 .img2 {
-    width: 100%;
-    height: 200px;
+    width: 300px;
+    height: 190px;
     margin-left: -230px;
     margin-top: 20%;
     object-fit: cover;
 
 }
 
+/* LES PERSONNALISATIONS <les radios et le hr>  */
+
+/* le deux */
+.prs {
+    display: flex;
+    margin-left: 90px;
+}
+
+/* les radios */
+.rdo {
+    margin-right: 7px;
+}
+
+
+/* le HR */
+hr {
+    height: 7px;
+    width: 35%;
+
+    background-color: magenta;
+    border-radius: 30px;
+
+    margin-left: -3px;
+    margin-top: 2%;
+}
+
 /* les ecris le <h1> */
 .ecris1 {
     padding-top: 320px;
-    font-size: 18px;
-    margin-left: -210px;
-    color: white;
+    font-size: 20px;
+
+    color: magenta;
+
+    margin-left: 10px;
+    margin-top: -290px;
+
 }
+
 
 /* le apragraphe apres l'ecris */
 .p1 {
     margin-left: -225px;
     font-size: 14px;
 
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
+.ens {
+    background-color: white;
+    height: 35%;
+    width: 91%;
 
+    margin-top: 99%;
+    margin-left: -85%;
 
+    padding: 5%;
+    border-radius: 3%;
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
 
 
 /* PART3 */
@@ -193,19 +242,19 @@ a {
 }
 
 /* l'ensemble des informations */
-.info{
-background-color: white;
-height: 75%;
-width: 90%;
+.info {
+    background-color: white;
+    height: 75%;
+    width: 90%;
 
-margin-top: 33%;
-margin-left: -58%;
+    margin-top: 33%;
+    margin-left: -58%;
 
-padding: 5%;
-border-radius: 3%;
+    padding: 5%;
+    border-radius: 3%;
 
-border-top-left-radius: 25px;
-border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 
@@ -213,50 +262,109 @@ border-top-right-radius: 25px;
 /* LES INFORMATIONS INIVIDUELS DU FORMULAIRE */
 
 /* le titre <prendre rendez-vous> */
-.prd{
+.prd {
     color: magenta;
     margin-bottom: 5%;
 }
 
 /* les paragraphe <les questions> */
-.p2{
-margin-bottom: 2%;
+.p2 {
+    margin-bottom: 2%;
 
 }
 
 /* les inputs */
-.input123{
-margin-left: 2%;
-margin-bottom: 2%;
+.input123 {
+    margin-left: 2%;
+    margin-bottom: 2%;
 
-background-color: rgb(228, 226, 226);
-border: none;
-border-radius: 7px;
+    background-color: rgb(228, 226, 226);
+    border: none;
+    border-radius: 7px;
 
-height: 8%;
-width: 98%;
+    height: 8%;
+    width: 98%;
+}
+ /* les radios <les boules> */
+.rrr{
+    margin-left: 2%;
+    margin-top: 1%;
+
 }
 
 /* le seul bouton <envoyer> */
-.btn{
-width: 98%;
-height: 8%;
-color: white;
+.btn2 {
+    width: 98%;
+    height: 8%;
+    color: white;
 
-margin-left: 2%;
-margin-top: 4%;
-border: none;
-border-radius: 7px;
-background-color: magenta;
-
+    margin-left: 2%;
+    margin-top: 4%;
+    border: none;
+    border-radius: 7px;
+    background-color: magenta;
 }
+
+/* toujour le bouton mais avec plus de style */
+.btn:hover{
+background-color: black;
+}
+
 
 /* le merci de la fin */
-.pfin{
-margin-left: 15%;
-margin-top: 2%;
+.pfin {
+    margin-left: 15%;
+    margin-top: 6%;
 
 }
-span{
+
+span {
     color: magenta;
+}
+
+
+
+
+/* LE FOOTER DONC A FIN */
+
+/* le logo et le titre <fatou hair beauty> */
+.fin {
+    display: flex;
+    background-color: white;
+    border-bottom-right-radius: 75px;
+    width: 19%;
+    height: 5%;
+    margin-left: 1%;
+}
+
+/* le logo <FHB> */
+.logo9 {
+    width: 35%;
+    object-fit: cover;
+    height: 60% pa
+}
+
+/* le titre <fatou haire> */
+.fhb9 {
+    color: black;
+    margin-left: -15px;
+    margin-top: 18px;
+}
+
+
+/* l'ensemble des info en display */
+.foot {
+    display: flex;
+    margin-top: 5%;
+    background-color: black;
+    margin-left: -30px;
+    color: white;
+
+}
+
+/* le informations seul donc < p >*/
+.foot1 {
+    margin-left: 8%;
+    margin-top: 2%;
+    padding-bottom: 1%;
 }
