@@ -34,9 +34,14 @@ a {
     color: white;
     text-decoration: none;
     margin-left: 6%;
-
-
 }
+
+/* toujour les liens mais avec des colorations */
+.liens :hover{
+    color: magenta;
+}
+
+
 
 /* TOUJOUR LE LIENS MAIS AVEC SA CLASS */
 .liens {
@@ -58,7 +63,7 @@ a {
 
 /* toujout le bouton rdv mais en plus de style */
 .rdv:hover {
-    background-color: magenta;
+    background-color:gainsboro;
 }
 
 
@@ -77,7 +82,7 @@ a {
 
 /* PART1 */
 
-/* LE DEUXIEME LOGO */
+/* LE DEUXIEME LOGO dans la premiere bordure */
 .logo2 {
     width: 50%;
     height: 30%;
@@ -91,7 +96,7 @@ a {
     font-size: 18px;
 
     margin-top: 75%;
-    margin-left: -11%;
+    margin-left: -10%;
 }
 
 /* les deux donc <le logo et mon nom> */
@@ -113,7 +118,7 @@ a {
 
 /* PART2 */
 
-/* le troisieme logo */
+/* le troisieme logo dans la deuxieme bordure */
 .logo3 {
     width: 23%;
     height: 10%;
@@ -126,8 +131,9 @@ a {
 .fhb2 {
     color: black;
     font-size: 10px;
-    margin-top: -20%;
-    margin-left: 117px;
+    margin-top: -16%;
+    margin-left: 140px;
+    object-fit: cover;
 }
 
 /* les deux donc le logo et mon nom */
@@ -153,36 +159,24 @@ a {
 
 }
 
-/* LES PERSONNALISATIONS <les radios et le hr>  */
-
-/* le deux */
-.prs {
-    display: flex;
-    margin-left: 90px;
-}
-
-/* les radios */
-.rdo {
-    margin-right: 7px;
-}
-
+/* LES PERSONNALISATIONS < le hr>  */
 
 /* le HR */
 hr {
     height: 7px;
-    width: 35%;
+    width: 30%;
 
     background-color: magenta;
     border-radius: 30px;
 
-    margin-left: -3px;
+    margin-left: 80px;
     margin-top: 2%;
 }
 
-/* les ecris le <h1> */
+/*  le <h1> */
 .ecris1 {
     padding-top: 320px;
-    font-size: 20px;
+   font-size: 20px;
 
     color: magenta;
 
@@ -192,7 +186,7 @@ hr {
 }
 
 
-/* le apragraphe apres l'ecris */
+/* le apragraphe apres les ecris <h1>*/
 .p1 {
     margin-left: -225px;
     font-size: 14px;
@@ -201,13 +195,14 @@ hr {
     margin-left: 15px;
 }
 
+/* l'ensembles des ecris donc le <h1 et le p> dans la deuxieme bordure */
 .ens {
     background-color: white;
     height: 35%;
     width: 91%;
 
     margin-top: 99%;
-    margin-left: -85%;
+    margin-left: -106%;
 
     padding: 5%;
     border-radius: 3%;
@@ -285,6 +280,12 @@ hr {
     height: 8%;
     width: 98%;
 }
+
+/* toujours les input mais avec personnalisations */
+.input123:focus{
+outline: none;
+}
+
  /* les radios <les boules> */
 .rrr{
     margin-left: 2%;
@@ -306,7 +307,7 @@ hr {
 }
 
 /* toujour le bouton mais avec plus de style */
-.btn:hover{
+.btn2:hover{
 background-color: black;
 }
 

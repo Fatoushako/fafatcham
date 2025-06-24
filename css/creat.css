@@ -3,16 +3,15 @@
 }
 
 body{
-    background-image: url();
+    background-image: url(../images/fond/motif.jpeg);
 }
-
 
 /* le premier logo et le titre <fatou hair beauty> */
 .tout1 {
     display: flex;
     background-color: rgb(240, 239, 239);
-
 }
+
 
 /*  logo1 <FHB> */
 .logo1 {
@@ -45,6 +44,11 @@ a {
     padding-right: 1%;
 }
 
+/* toujours les liens mais avec personnalisations */
+.liens :hover{
+    color: magenta;
+}
+
 /* LES LIENS <PRENDRE RENDREZ-VOUS> */
 .rdv {
     border: solid 1px white;
@@ -52,7 +56,6 @@ a {
     color: black;
     padding: 7px;
     border-radius: 15px;
-
 }
 
 /* GALERIE */
@@ -78,18 +81,26 @@ a {
 
 /* le bouton <APPELER MAINTENANT */
 .btn1 {
-    margin-top: 5%;
-    background-color: rgb(218, 76, 187);
+    background-color: magenta;
     color: white;
     height: 20%;
     border: none;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+/* toujours le bouton <rdv> mais avec des modifications */
+.boutoncall{
+margin-top: 6%;
+margin-left: -13%;
+
 
 }
 
 /* l'image et la galerie <ensemble> */
 .tout2 {
     display: flex;
-    background-color: rgb(218, 76, 187);
+    background-color: magenta;
     height: 25%;
 
 }
@@ -114,7 +125,7 @@ a {
 
 /* tout les mauves <titre> */
 span {
-    color: rgb(208, 57, 198);
+    color: magenta;
 }
 
 
@@ -180,4 +191,50 @@ margin-bottom: -30px;
     width: 15%;
     margin-top: -200px;
     margin-right: 1%
+}
+
+
+
+
+
+
+/* LA FIN DONC LE FOOTER */
+
+/* le logo et le titre <fatou hair beauty> */
+.fin {
+    display: flex;
+    background-color: magenta;
+    width: 280px;
+    height: 90px;
+    border-top-right-radius: 100px;
+}
+
+/* le logo <FHB> */
+.logo9 {
+    width: 35%;
+    object-fit: cover;
+    height: 60%
+    
+}
+
+/* le titre <fatou haire> */
+.fhb9 {
+    color: black;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+/* l'ensemble des info en display */
+.foot {
+    display: flex;
+    margin-top: 10%;
+    background-color: rgb(245, 239, 239);
+
+}
+
+/* le informations seul donc < p >*/
+.foot1 {
+    margin-left: 8%;
+    margin-top: 2%;
+    padding-bottom: 1%;
 }

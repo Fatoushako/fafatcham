@@ -34,15 +34,19 @@ body {
     height: 9%;
     margin-top: -26px;
     padding-top: 25px;
+}
+/* toujours les liens mais avec personnalisations */
+.liens :hover{
+color: black;
 
 }
 
+/* Encore le liens */
 a {
     color: white;
     text-decoration: none;
     margin-left: 6%;
 }
-
 
 /* le liens <PRENDRE RENDEZ-VOUS> */
 .rdv {
@@ -52,9 +56,13 @@ padding: 8px;
 background-color: white;
 border-radius: 20px;
 border: none;
-
 }
 
+/* le bouton <rdv> avec personnalisation */
+.rdv:hover{
+    background-color: rgb(241, 233, 233);
+
+}
 
 /* PREMIERE IMAGE ET TEXTE */
 

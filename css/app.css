@@ -39,8 +39,12 @@ body {
     margin-top: -12px;
     height: 65px;
     padding-top: 25px;
-
 }
+/* toujour les liens mais avec des colorations */
+.liens :hover{
+    color: magenta;
+}
+
 
 /* le <a> donc les liens */
 a {
@@ -58,6 +62,13 @@ a {
     padding: 5px;
     border: none;
 }
+
+
+/* toujour les bouton <rdv> mais avec des colorations */
+.rdv:hover{
+    background-color: rgb(198, 214, 219);
+}
+
 
 /* Le bacground rose     */
 .tout2 {
