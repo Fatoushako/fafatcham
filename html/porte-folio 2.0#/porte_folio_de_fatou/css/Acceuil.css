@@ -1,0 +1,156 @@
+body{
+background-color: rgb(19, 16, 33);
+}
+
+/* le nom <porte folio> et les liens */
+.tout1{
+    display: flex;
+}
+
+/* le nom porte folio */
+.pf{
+color: white;
+margin-left: 7%;
+}
+
+/* les liens */
+.liens{
+margin-left: 40%;
+margin-top: 2%;
+
+
+}
+
+/* toujours les liens mais en <A>  */
+a:hover{
+    color: rgb(255, 82, 82) ;
+
+
+
+}
+
+/* LIENS */
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 40px;
+
+}
+/* mon nom ainsi ques les paragraphes et le bputon voir plus*/
+.nom{
+color: white;
+margin-left: 6%;
+margin-top: 5%;
+}
+
+/* le paragraphe en dessous de <informatique> */
+.p1{
+    color:rgb(172, 153, 153);
+
+
+}
+
+/* le bouton <voir plus> */
+.btn1{
+color: white;
+background-color: rgb(253, 49, 62);
+height: 5%;
+width: 10%;
+border: none;
+border-radius: 2px;
+}
+
+/* SERVICE */
+
+/* La partie service */
+.tout2{
+color: white;
+margin-left: 6%;
+margin-top: 10%;
+
+}
+
+/* le petit service */
+.srv{
+    margin-bottom: -20px;
+}
+
+/* le grand <mes services> */
+.msrv{
+color: rgb(252, 42, 56);
+
+}
+
+
+
+/* LES ICONES */
+
+/* icone baskette */
+.icone1{
+height: 10%;
+width: 10%;
+margin-bottom: -14px;
+object-fit: cover;
+margin-top: 2%;
+}
+
+/* l'encadrement <icone + ecrits> */
+.tout3{
+border: solid 1px rgb(23, 22, 35);
+width: 23%;
+padding: 2%;
+background-color: rgb(6, 6, 22);
+margin-right: 3%;
+
+}
+
+/* L'ENSEMBLE DES METIER <colonne 1> */
+.job{
+display: flex;
+
+}
+
+/* DEUXIEME COLONNE JOB */
+.tout5{
+color: white;
+display: flex;
+margin-left: 6%;
+margin-top: 2%;
+
+}
+
+/* LE FORMULAIRE */
+
+/* le titre <mes contacter? */
+.contact{
+color: rgb(252, 42, 56) ;
+
+}
+
+/* le tout donc le titre et les input */
+.tout6{
+margin-left: 6%;
+margin-top: 10%;
+
+}
+
+/* le input seul */
+input{
+height: 6%;
+width: 30%;
+background-color: rgb(6, 6, 22);
+border: none;
+
+}
+
+/* le seul bouton */
+.btn{
+margin-left: 15%;
+width: 15%;
+height: 6%;
+border: none;
+background-color: rgb(252, 42, 56) ;
+
+}
+
+
