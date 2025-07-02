@@ -16,15 +16,35 @@ body {
 
 /* le premier logo <FHB> */
 .logo1 {
-    width: 5%;
-    object-fit: cover;
-    margin-left: 43%;
+    width: 6%;
+    margin-left: 45%;
+
 }
+
+/* media querise du logo */
+@media (max-width: 768px) {
+    .tout1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo1 {
+        width: 30%;
+        margin-left: 0;
+    }
+
+    .fhb {
+        margin: 10px 0;
+    }
+}
+
+
 
 /* le titre <fatou haire> */
 .fhb {
-    margin-left: -10px;
-    margin-top: 12px;
+    margin-left: -1%;
+    margin-top: 1.7%;
     color: black;
 }
 
@@ -32,7 +52,7 @@ body {
 a {
     color: white;
     text-decoration: none;
-    margin-left: 11%;
+    margin-left: 9%;
 
 }
 
@@ -40,12 +60,27 @@ a {
 .liens {
     background-color: magenta;
     height: 9%;
-    padding-top: 23px;
-    padding-right: 1%;
+    padding-top: 3%;
+    list-style-type: none;
 }
 
+/* media querise du liens */
+@media (max-width: 768px) {
+    .liens {
+        height: auto;
+        padding: 5%;
+        text-align: center;
+    }
+
+    a {
+        display: block;
+        margin: 5% 0;
+    }
+}
+
+
 /* Encore les liens mais leurs colorations lorsque nous voulons cliquer */
-.liens:hover{
+.liens:hover {
     background-color: black;
 
 }
@@ -61,7 +96,7 @@ a {
 }
 
 /* le bouton rdv seulemtn mais avec des colorations */
-.rdv:hover{
+.rdv:hover {
     background-color: magenta;
 }
 
@@ -75,31 +110,31 @@ a {
 
 /* L'IMAGE <1> SEUL */
 .img1 {
-    width: 57%;
-    margin-left: -60px;
+   max-width: 57%;
+    height: auto;
+   
 
 }
+
 
 /* LES ECRITS A COTE DE L'IMAGE EN DESSIN */
 .tout3 {
     margin-top: 12%;
-    
+
 }
 
 /* LE BOUTONS appeler maintenant */
 .callcall {
     background-color: magenta;
     color: white;
-    padding: 8px;
-border-radius: 25px;
+    padding: 5px;
+    border-radius: 25px;
 
 }
 
 /* la div qui contient le bouton <appleler maintenant> */
-.cll{
-margin-top: 30px;
-margin-left: -65px;
-
+.cll {
+    margin-top: 20px;
 }
 
 /* LA PARTIE SERVICES */
@@ -159,7 +194,7 @@ margin-left: -65px;
 /* le prix donc <5 $> */
 .prix {
     color: magenta;
-  
+
     margin-top: 4%;
     margin-left: 2px;
 
