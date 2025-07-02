@@ -158,17 +158,12 @@ margin-left: -65px;
 
 /* le prix donc <5 $> */
 .prix {
-    border: solid 1px;
-    width: 22%;
-    height: 5%;
-    padding-left: 10%;
-    padding-top: 4px;
-    background-color: magenta;
-    color: white;
-    border-radius: 15px;
-    margin-bottom: -90px;
+    color: magenta;
+  
     margin-top: 4%;
+    margin-left: 2px;
 
+    font-size: 22px;
 }
 
 
