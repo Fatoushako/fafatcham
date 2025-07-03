@@ -21,24 +21,6 @@ body {
 
 }
 
-/* media querise du logo */
-@media (max-width: 768px) {
-    .tout1 {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .logo1 {
-        width: 30%;
-        margin-left: 0;
-    }
-
-    .fhb {
-        margin: 10px 0;
-    }
-}
-
 
 
 /* le titre <fatou haire> */
@@ -64,19 +46,7 @@ a {
     list-style-type: none;
 }
 
-/* media querise du liens */
-@media (max-width: 768px) {
-    .liens {
-        height: auto;
-        padding: 5%;
-        text-align: center;
-    }
 
-    a {
-        display: block;
-        margin: 5% 0;
-    }
-}
 
 
 /* Encore les liens mais leurs colorations lorsque nous voulons cliquer */
@@ -342,7 +312,6 @@ a {
     background-color: rgb(245, 239, 239);
 
 }
-
 /* le informations seul donc < p >*/
 .foot1 {
     margin-left: 8%;
